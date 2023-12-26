@@ -38,3 +38,4 @@ console.log("Marrital status :",myName);
 
 myName = "***********************************";
 console.log(myName);
+
