@@ -7,16 +7,8 @@ var isEvenOrOdd = function (num) {
   }
   return returnValue;
 };
-var isVoteOrNot = function (age,name) {
-   if(name=="neha"){
-    console.log("hi",name);
-
-   }
-   else {
-    console.log(name ,"bye")
-   }
-   
-    var ans="";
+var isVoteOrNot = function (age) {
+   var ans="";
     if(age>=18){
     console.log(" neha You are eligible for vote");
     } 
@@ -28,23 +20,34 @@ var isVoteOrNot = function (age,name) {
     return(ans);
   };
 console.log("********************STEP 1******************************")
-var result = isEvenOrOdd(23);
+var result = isEvenOrOdd(45);
 console.log(`Given number is 45 it is a ${result} number`);
-var result = isEvenOrOdd(30);
+var result = isEvenOrOdd(40);
 console.log(`Given number is 70  it is a ${result} number`);
-var result = isEvenOrOdd(23);
+var result = isEvenOrOdd(67);
 console.log(`Given number is 67 it is a ${result} number`);
-var result = isEvenOrOdd(30);
+var result = isEvenOrOdd(98);
 console.log(`Given number is 98  it is a ${result} number`);
 
 console.log("********************STEP 2******************************")
 
-var result = isVoteOrNot(22,"neha");
+var result = isVoteOrNot(18);
 console.log(` ${result} `);
-var result = isVoteOrNot(18,"om");
+var result = isVoteOrNot(20);
 console.log(` ${result} `);
-console.log(`sorry, You are not eligible for voting`);
-console.log("********************STEP 1******************************")
-var text=" Neha Patil";
-var length = text.length;
-console.log(" String more than ${length} charector");
+var result = isVoteOrNot(17);
+console.log(` ${result} `);
+var result = isVoteOrNot(40);
+console.log(` ${result} `);
+
+console.log("********************STEP 3******************************")
+var value= "Javascript-ES6";
+var str1 = value.length;
+console.log("Given string is Javascript: " ,str1)
+
+console.log("********************STEP 4******************************")
+var value="Javascript-language";
+var str2 = value.length;
+var result = value.startsWith("Java");
+console.log(" String more than charector",str2);
+console.log(" String more than charector",result);

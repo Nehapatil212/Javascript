@@ -16,7 +16,7 @@ display(); // Call - Function expression
 
 var maleMarriageEligibility = function(gender,age,boyName){
 
-   var result = gender=="Male" && age>=21 
+   var result = gender=="female" && age>=21 
 
     ?  `Hey ${boyName} you are eligible for Marriage` 
 

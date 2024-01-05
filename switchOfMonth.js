@@ -42,6 +42,8 @@ function monthOfYear(month){
           break;
       }
 }
+
+console.log("*******************Month of Year*************************")
 monthOfYear(2);
 monthOfYear(7);
 monthOfYear(9);
@@ -53,3 +55,4 @@ monthOfYear(null);
 monthOfYear(NaN);
 monthOfYear(-2);
 monthOfYear(15);
+console.log("******************************************************")
