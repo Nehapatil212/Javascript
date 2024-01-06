@@ -31,27 +31,41 @@ var result = isEvenOrOdd(101);
 console.log(`Given number is 101  it is a ${result} number`);
 console.log("********************STEP 4******************************");
 
-var str="Javascript";
-function wordsLen(str) {
-  const array = str;
-  return array.length;
-}
+// var str="Javascript";
+// function wordsLen(str) {
+//   const array = str;
+//   return array.length;
+// }
 
-var string_length=str.length;
-console.log("Given Word is =>'Javascript'");
-console.log("Length of words is => ", wordsLen(str));
-console.log("Given words is ", string_length % 2 == 0);
+// var string_length=str.length;
+// console.log("Given Word is =>'Javascript'");
+// console.log("Length of words is => ", wordsLen(str));
+// console.log("Given words is ", string_length % 2 == 0);
 
-var isEvenOrOdd = function (str) {
-    var returnValue = "";
-if(str % 2 == 0)
-{
-    returnValue = "EVEN";
-    console.log("Words length is Even"); 
+// var isEvenOrOdd = function (str) {
+//     var returnValue = "";
+// if(str % 2 == 0)
+// {
+//     returnValue = "EVEN";
+//     console.log("Words length is Even"); 
+// }
+// else if(str % 2 != 0){
+//     returnValue = "Odd";
+//     console.log("Given words is odd"); 
+// }
+// return returnValue;
+// }
+function wordsLen(givenword){
+  var givenwordLen = givenword.length();
+  console.log(givenword);
+
+  if (givenwordLen%2==0)
+  {
+    console.log(givenword,'is even ');
+  }
+  else
+  {
+    console.log(givenword,'is odd ');
+  }
 }
-else if(str % 2 != 0){
-    returnValue = "Odd";
-    console.log("Given words is odd"); 
-}
-return returnValue;
-}
+wordsLen("Javascript");
