@@ -56,7 +56,7 @@ console.log("********************STEP 4******************************");
 // return returnValue;
 // }
 function wordsLen(givenword){
-  var givenwordLen = givenword.length();
+  var givenwordLen = givenword.length;
   console.log(givenword);
 
   if (givenwordLen%2==0)
