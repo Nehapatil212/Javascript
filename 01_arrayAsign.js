@@ -1,6 +1,6 @@
 console.log(`*********************<= Given array =>******************`);
 
-let arrayNN = ["Banana","Orange","Apple","Mango","Water Melon"];
+var arrayNN = ["Banana","Orange","Apple","Mango","Water Melon"];
 console.log(arrayNN);
 console.log(`****************First element and Last Element******************`);
 const indexOf0 = arrayNN.indexOf(0);
