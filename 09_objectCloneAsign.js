@@ -10,9 +10,9 @@ const bankLocation = {
     pin: 122666,
 };
 const rateOfInterest= {
-    homeLoanInterest:" 10.00",
-    personalLoanInterest: "12.00",
-    dueInterest:"1000"
+    homeLoanInterest:" 7.5",
+    personalLoanInterest: "6.2",
+    dueInterest:"2"
 }
 
 console.log("****************Clone object **********************************")
