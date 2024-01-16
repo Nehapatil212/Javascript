@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+         body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            width: 100vh;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+.c{
+    color: white;
+}
+        th, td {
+            padding: 12px;
+            text-align: center;
+            border: 1px solid #ddd;
+           
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+
+        /* Apply different background colors to each column */
+        td:nth-child(1) { background-color:limegreen; } /* Light Coral */
+        td:nth-child(2) { background-color:orange; } /* Blanched Almond */
+        
+
+        .th1, .td1 {
+            padding: 12px;
+            text-align: center;
+            border: 1px solid #ddd;
+         
+        }
+
+        .th1 {
+            background-color: #f2f2f2;
+        }
+
+        /* Apply different background colors to each column */
+        /* Apply different background colors to each column */
+        .td1:nth-child(1) { background-color:whitesmoke; } /* Light Coral */
+        .td1:nth-child(2) { background-color:whitesmoke; } /* Blanched Almond */
+        
+
+        /* Add some hover effect on table rows */
+        tr:hover {
+            background-color: #f5f5f5;
+        }
+        img{
+            height: 50px;
+            width: 80px;
+            background-color: whitesmoke;
+        }
+    </style>
+    <title>Colored Table</title>
+</head>
+<body>
+
+    <!-- Your HTML table structure -->
+    <table>
+        <thead>
+            <tr style="background-color: whitesmoke;">
+                <th style="background-color: whitesmoke;"><img src="mangodb.jpeg" alt="Logo"></th>
+                <th style="background-color: whitesmoke;"><img src="mysql.jpeg" alt="Logo"></th>
+                
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="c">Use Case</td>
+                <td class="c">Use Case</td>
+                
+            </tr>
+            <tr>
+                <td class="th1 td1 ">Real time analysis,content<br>management, IOT, mobile apps</td>
+                <td class="th1 td1">Legacy applications pr applications<br>
+                that require multi-row<br>transactions</td>
+                
+            </tr>
+            <tr>
+                <td class="c">Data structure</td>
+                <td class="c">Data structure </td>
+                
+            </tr>
+            <tr>
+                <td class="th1 td1">No schema defination required</td>
+                <td class="th1 td1">Structured data with clear schema</td>
+                
+            </tr>
+            <tr>
+                <td class="c">Risk </td>
+                <td class="c">Risk </td>
+                
+            </tr>
+            <tr>
+                <td class="th1 td1">Less risk of attck duet design</td>
+                <td class="th1 td1">Risk of SQL injection attcks</td>
+                
+            </tr>
+            <tr>
+                <td class="c">Analysis</td>
+                <td class="c">Analysis</td>
+                
+            </tr>
+            <tr>
+                <td class="th1 td1">MangoDB works great for<br>
+                unstructured data and lends you<br>
+            opprtunity for growth</td>
+                <td class="th1 td1">MySQL is a perfect when your data<br>
+                is structued and you are in need of a<br>
+            traditional realationship database.</td>
+                
+            </tr>
+            <!-- Add more rows as needed -->
+        </tbody>
+    </table>
+
+</body>
+</html>
