@@ -31,11 +31,4 @@ let developer = {
     isMarried: true,
     skills: ["C", "CPP", "Core Java", "JavaScript", "Microservices" ]
 }
-for (const key in developer) {
-    if (Object.hasOwnProperty.call(developer, key)) {
-        const element = developer[key];
-        console.log(`Key ==> ${key}, Value ==> ${element}`);
-    }
-}
-
-console.log(developer.skills);
+ 
