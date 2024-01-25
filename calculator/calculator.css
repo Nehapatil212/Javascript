@@ -1,0 +1,119 @@
+.container{
+    width: 800px;
+    border: 2px solid grey;
+    border-radius: 10px;
+    margin-top: 150px ;
+    margin-left: 200px;
+    
+    background: rgb(2,0,36);
+background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+
+    /* background-color: rgb(237, 110, 64); */
+}
+.result{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: yellow;
+}
+.inputFields{
+    margin-top: 50px;
+    margin-left: 20px;
+    
+}
+#addition {
+    color: blue;
+    border-radius: 10px;
+    font-size: larger;
+    font-weight: bold;
+    padding: 10px;
+    border: 2px solid orange;
+    /* display: block; */
+    margin-top: 20px;
+}
+#substraction {
+    color: blue;
+    border-radius: 10px;
+    font-size: larger;
+    font-weight: bold;
+    padding: 10px;
+    border: 2px solid orange;
+    /* display: block; */
+    margin-top: 20px;
+}
+#multiplication {
+    color: blue;
+    border-radius: 10px;
+    font-size: larger;
+    font-weight: bold;
+    padding: 10px;
+    border: 2px solid orange;
+    /* display: block; */
+    margin-top: 20px;
+}
+#division {
+    color: blue;
+    border-radius: 10px;
+    font-size: larger;
+    font-weight: bold;
+    padding: 10px;
+    border: 2px solid orange;
+    /* display: block; */
+    margin-top: 20px;
+}
+#clear {
+    color: blue;
+    border-radius: 10px;
+    font-size: larger;
+    font-weight: bold;
+    padding: 10px;
+    border: 2px solid orange;
+    /* display: block; */
+    margin-top: 20px;
+}
+label{
+   color: yellow; 
+   font-size: larger;
+   font-weight: bold;
+}
+.field {
+    border: 2px solid orangered;
+    border-radius: 10px;
+    padding: 10px;
+    margin-right: 15px;
+    
+}
+body{
+   
+            background-image: url("pexels-photo-949587.webp");
+          /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  /* background-repeat: no-repeat; */
+  background-size: cover;
+            }
+
+.button-container {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.button {
+    display: block;
+    width: 200px;
+    padding: 10px;
+    margin: 10px 0;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* Add hover effect to the buttons */
+.button:hover {
+    background-color: #2980b9;
+}

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic DOM</title>
+    <link rel="stylesheet" href="calculator.css">
+    <script src="./calculator.js" defer></script>
+</head>
+<body>
+<!-- Addition -->
+<div class="container">
+        
+    <div class="result">
+        <h1>CALCULATOR </h1>
+    </div>
+    <div class="inputFields">
+        <label> Enter First Value: </label> <input type="number" id="field-one" class="field">
+       <label> Enter Second Value: </label> <input type="number" id="field-two" class="field">
+    </div>
+
+    <div class="result">
+        <h1> Result is  <span id="resultValue"> ___ </span></h1>
+    </div>
+    <div class="button-container">
+     <button type="submit" id="addition"> ADDITION </button>
+     <button type="submit" id="substraction"> SUBSTRACTION </button>
+     <button type="submit" id="multiplication"> MULTIPLOCATION </button>
+     <button type="submit" id="division"> DIVISION </button>
+     <button type="reset"  id="clear">RESET</button>
+
+     </div>
+</div>
+</body>
+</html>
