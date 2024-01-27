@@ -5,14 +5,14 @@ let arr = arrRollNum.reverse();
 console.log(arr);
 
 console.log("****2)using sort() method without any custom logic given array**")
-// arrRollNum.sort();
-// console.log(arrRollNum);
-let sortedArr = arrRollNum.sort();
+arrRollNum.sort();
+console.log(arrRollNum);
+// let sortedArr = arrRollNum.sort();
 
 // The greatest number is now the last element in the sorted array
-let greatestNum = sortedArr[sortedArr.length - 1];
+// let greatestNum = sortedArr[sortedArr.length - 1];
 
-console.log(greatestNum );
+// console.log(greatestNum );
 
 console.log("**********3)sort the ascending order given array**************************")
 let sortedArray = arrRollNum.sort((a,b) =>{
